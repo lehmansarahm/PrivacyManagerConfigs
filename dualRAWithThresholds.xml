@@ -1,0 +1,152 @@
+<privacyManagerConfig>
+	<defaultScanRate>1000</defaultScanRate>
+	<thresholds>
+		<distance>10</distance>
+		<walkingSpeed>1.4</walkingSpeed>
+	</thresholds>
+	<fingerprints>
+		<fingerprint id="SarahsOffice" action="restrict">
+			<technology id="wifi">
+				<signalInformation id="18:64:72:4f:72:20">-76.0</signalInformation>
+				<signalInformation id="18:64:72:4f:62:41">-83.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:c2">-64.0</signalInformation>
+				<signalInformation id="18:64:72:4f:72:32">-71.0</signalInformation>
+				<signalInformation id="18:64:72:4f:72:22">-78.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:a1">-77.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:b1">-63.0</signalInformation>
+				<signalInformation id="18:64:72:4f:6e:31">-57.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5e:30">-79.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:a2">-74.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:d2">-62.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:11">-55.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:b2">-64.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5e:31">-81.0</signalInformation>
+				<signalInformation id="18:64:72:4f:62:42">-83.0</signalInformation>
+				<signalInformation id="18:64:72:4f:63:50">-82.0</signalInformation>
+				<signalInformation id="18:64:72:4f:63:52">-83.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:22">-74.0</signalInformation>
+				<signalInformation id="c4:6e:1f:c5:43:e8">-57.0</signalInformation>
+				<signalInformation id="18:64:72:4f:72:21">-77.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5d:82">-85.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:20">-73.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:a0">-73.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:12">-55.0</signalInformation>
+				<signalInformation id="84:4b:f5:81:7b:51">-64.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:31">-69.0</signalInformation>
+				<signalInformation id="18:64:72:4f:63:51">-82.0</signalInformation>
+				<signalInformation id="c4:3d:c7:4f:a0:27">-80.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:b0">-69.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5d:92">-85.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:30">-69.0</signalInformation>
+				<signalInformation id="18:64:72:4f:6e:21">-70.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:32">-69.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5d:91">-85.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:01">-59.0</signalInformation>
+				<signalInformation id="18:64:72:4f:72:31">-71.0</signalInformation>
+				<signalInformation id="18:64:72:4f:72:30">-71.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:21">-73.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5e:20">-83.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:c1">-65.0</signalInformation>
+				<signalInformation id="c4:3d:c7:4f:a0:28">-71.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6e:30">-57.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:c0">-63.0</signalInformation>
+				<signalInformation id="18:64:72:4f:62:52">-84.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:71">-85.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:d0">-60.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5d:81">-84.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:70">-86.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:d1">-59.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5e:32">-79.0</signalInformation>
+				<signalInformation id="18:64:72:4f:6e:32">-58.0</signalInformation>
+				<signalInformation id="18:64:72:4f:6e:20">-75.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:00">-58.0</signalInformation>
+				<signalInformation id="18:64:72:4f:6e:22">-74.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5e:22">-80.0</signalInformation>
+				<signalInformation id="18:64:72:4f:62:50">-85.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5e:21">-80.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:10">-55.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:02">-62.0</signalInformation>
+				<signalInformation id="b2:e8:92:0a:35:af">-82.0</signalInformation>
+				<signalInformation id="18:64:72:4f:68:72">-87.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5d:90">-84.0</signalInformation>
+			</technology>
+		</fingerprint>
+		<fingerprint name="CornerLounge"> 
+			<technology name="wifi"> 
+				<signalInformation id="18:64:72:4f:6d:50">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:62:41">-75.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:c2">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:62:40">-77.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:72:32">-81.0</signalInformation> 
+				<signalInformation id="42:49:0f:ab:f0:39">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:4e:c1">-63.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6e:31">-73.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:4e:c0">-65.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5e:30">-62.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:d2">-66.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:11">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:63:f1">-76.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5e:31">-63.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:62:42">-75.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5b:d2">-76.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5b:c0">-86.0</signalInformation> 
+				<signalInformation id="c4:6e:1f:c5:43:e8">-58.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:61">-59.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:56:52">-86.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:56:51">-85.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:12">-83.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:31">-85.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:60">-48.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6d:42">-88.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:56:41">-87.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:4e:d0">-56.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5d:92">-88.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:63:e0">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:30">-85.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:32">-84.0</signalInformation>
+				<signalInformation id="18:64:72:4f:63:e1">-81.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5b:c2">-85.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:63:f0">-76.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5d:91">-88.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:62:51">-75.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:72:31">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5b:c1">-88.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:72:30">-82.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:62">-47.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5b:d0">-76.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:4e:d1">-56.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:63:e2">-80.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5e:20">-71.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:c1">-90.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6e:30">-73.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:c0">-83.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:62:52">-75.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:71">-43.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:67:90">-87.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:d0">-65.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:70">-43.0</signalInformation>
+				<signalInformation id="18:64:72:4f:5f:d1">-65.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:4e:d2">-56.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5e:32">-62.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6e:32">-73.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:67:92">-86.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6e:20">-85.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:00">-90.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6e:22">-86.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:56:50">-87.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:63:f2">-83.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5e:22">-72.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:6d:41">-83.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5b:d1">-75.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5e:21">-72.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:62:50">-75.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5f:10">-86.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:56:60">-88.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:4e:c2">-65.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:68:72">-43.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:5d:90">-86.0</signalInformation> 
+				<signalInformation id="18:64:72:4f:67:91">-87.0</signalInformation> 
+			</technology>
+		</fingerprint>
+	</fingerprints>
+</privacyManagerConfig>

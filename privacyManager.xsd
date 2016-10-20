@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.w3schools.com"
+  xmlns="http://www.w3schools.com"
+  elementFormDefault="qualified">
+
+<xs:element name="privacyManagerConfig" type="configType" />
+<xs:complexType name="configType">
+	<xs:sequence>
+		<xs:element maxOccurs="1" name="defaultScanRate" type="xs:integer" />
+		<xs:element maxOccurs="1" ref="thresholds" />
+		<xs:element maxOccurs="1" ref="times" />
+		<xs:element maxOccurs="1" ref="fingerprints" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="thresholds" type="thresholdListType" />
+<xs:complexType name="thresholdListType">
+	<xs:sequence>
+		<xs:element maxOccurs="1" name="walkingSpeed" type="xs:decimal" />
+		<xs:element maxOccurs="1" name="distance" type="xs:integer" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="times" type="timeListType" />
+<xs:complexType name="timeListType">
+	<xs:sequence>
+		<xs:element maxOccurs="unbounded" ref="time" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="time" type="timeType" />
+<xs:complexType name="timeType">
+	<xs:attribute name="start" type="xs:string" />
+	<xs:attribute name="stop" type="xs:string" />
+	<xs:attribute name="action" type="actionType" />
+</xs:complexType>
+
+<xs:element name="vectors" type="vectorListType" />
+<xs:complexType name="vectorListType">
+	<xs:sequence>
+		<xs:element maxOccurs="unbounded" ref="vector" />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="vector" type="vectorType" />
+<xs:complexType name="vectorType">
+	<xs:attribute name="id" type="xs:string" />
+	<xs:attribute name="compareValue" type="xs:string" />
+	<xs:attribute name="comparator" type="compareType" />
+	<xs:attribute name="action" type="actionType" />
+</xs:complexType>
+
+<xs:element name="fingerprints">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" ref="fingerprint" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="fingerprint">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" ref="technology" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+		<xs:attribute name="action" type="actionType" />
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="technology">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" ref="signalInformation" />
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" />
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="signalInformation" type="signalScanElement" />
+<xs:complexType name="signalScanElement">
+	<xs:simpleContent>
+		<xs:extension base="xs:decimal">
+			<xs:attribute name="id" type="xs:string" />
+			<xs:attribute name="frequency" type="xs:string" />
+		</xs:extension>
+	</xs:simpleContent>
+</xs:complexType>
+
+<xs:simpleType name="actionType">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="restrict" />
+    <xs:enumeration value="enable" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="compareType">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="lessThan" />
+    <xs:enumeration value="lessThanOrEqualTo" />
+    <xs:enumeration value="greaterThan" />
+    <xs:enumeration value="greaterThanOrEqualTo" />
+    <xs:enumeration value="equalTo" />
+    <xs:enumeration value="notEqualTo" />
+  </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>
